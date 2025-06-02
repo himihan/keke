@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*데스트탑 화면 일 경우*/
+        @media (min-width:501px) {
+            .mobile {
+                display: none;
+            }
+            body{
+                background-color: orange;
+            }
+        }
+
+        @media (max-width:500px) {
+            .desktop {
+            display: none;
+        }
+            body{
+                background-color: rgb(94, 255, 0);
+            }        
+        }
+    </style>
+</head>
+<body>
+    <div class="desktop">데스트탑 화면입니다</div>
+    <div class="mobile">모바일 화면입니다</div>
+</body>
+</html>
